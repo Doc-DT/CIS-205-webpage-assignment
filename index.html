@@ -49,6 +49,30 @@
             padding: 0 1rem;
         }
 
+                /* --- Navigation Bar Styles --- */
+        .navbar ul {
+            list-style: none;
+            margin: 0;
+            padding: 0;
+            display: flex;
+            gap: 1.5rem;
+        }
+
+        .navbar a {
+            color: var(--text-light);
+            text-decoration: none;
+            font-weight: 500;
+            padding: 0.5rem 0.75rem;
+            border-radius: 4px;
+            transition: background-color 0.3s, color 0.3s;
+        }
+
+        .navbar a:hover {
+            background-color: var(--accent-color);
+            color: var(--primary-color);
+        }
+
+        /* ----------------------------- */
         .hero-image-container {
             text-align: center;
             margin-bottom: 2rem;
