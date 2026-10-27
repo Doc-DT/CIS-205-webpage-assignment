@@ -1,0 +1,164 @@
+
+<style>
+    /* General page styling */
+    body {
+        margin: 0;
+        font-family: Arial, sans-serif;
+        color: #17365d;
+        background-color: #ffffff;
+        line-height: 1.6;
+    }
+
+    /* Navigation bar */
+    nav {
+        background-color: #17365d;
+        color: white;
+        padding: 20px;
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        flex-wrap: wrap;
+    }
+
+    nav h1 {
+        margin: 0;
+        font-size: 28px;
+    }
+
+    nav a {
+        color: white;
+        text-decoration: none;
+        margin: 0 12px;
+        font-size: 16px;
+    }
+
+    nav a:hover {
+        color: #55d6ff;
+    }
+
+    /* Main introduction section */
+    .hero {
+        background-color: #e3f2fd;
+        padding: 50px 5%;
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        gap: 30px;
+        flex-wrap: wrap;
+    }
+
+    .hero-text {
+        flex: 1;
+        min-width: 250px;
+    }
+
+    .hero h2 {
+        font-size: 40px;
+        color: #102c54;
+        margin-top: 0;
+    }
+
+    .hero p {
+        font-size: 18px;
+    }
+
+    /* Computer and padlock image */
+    .hero img {
+        width: 45%;
+        max-width: 500px;
+        min-width: 250px;
+        height: auto;
+        border-radius: 10px;
+    }
+
+    /* Main content layout */
+    .content {
+        display: flex;
+        gap: 30px;
+        padding: 35px 5%;
+        flex-wrap: wrap;
+    }
+
+    .principles {
+        flex: 1.2;
+        min-width: 280px;
+    }
+
+    .sidebar {
+        flex: 1;
+        min-width: 280px;
+    }
+
+    h2 {
+        color: #17365d;
+    }
+
+    /* Individual security tips */
+    .tip {
+        background-color: #f4f8fc;
+        border-left: 5px solid #1683c4;
+        padding: 15px;
+        margin: 15px 0;
+        border-radius: 5px;
+    }
+
+    .tip h3 {
+        margin-top: 0;
+        color: #145a8d;
+    }
+
+    /* Information boxes */
+    .info-box {
+        background-color: #eaf5ff;
+        padding: 22px;
+        margin-bottom: 20px;
+        border-radius: 8px;
+    }
+
+    .info-box h2 {
+        margin-top: 0;
+    }
+
+    .info-box li {
+        margin-bottom: 10px;
+    }
+
+    /* Footer */
+    footer {
+        background-color: #17365d;
+        color: white;
+        text-align: center;
+        padding: 20px;
+    }
+
+    /* Mobile-friendly layout */
+    @media (max-width: 700px) {
+        nav {
+            flex-direction: column;
+            gap: 12px;
+        }
+
+        nav a {
+            display: inline-block;
+            margin: 5px;
+        }
+
+        .hero {
+            flex-direction: column;
+            text-align: center;
+        }
+
+        .hero h2 {
+            font-size: 32px;
+        }
+
+        .hero img {
+            width: 100%;
+            min-width: 0;
+        }
+
+        .content {
+            flex-direction: column;
+        }
+    }
+</style>
