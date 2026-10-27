@@ -8,8 +8,8 @@
 <!-- Internal CSS Style Sheet -->
     <style>
         :root {
-            --primary-color: darkred;
-           --accent-color: red;
+            --primary-color: darkred; /* Changed primary color 10/27/2026*/
+           --accent-color: red; /* Changed accent color 10/27/2026*/
             --text-light: #f8fafc;
             --text-dark: #334155;
             --bg-light: #f1f5f9;
@@ -43,24 +43,15 @@
             font-size: 1.1rem;
         }
 
-        .container {
-            max-width: 800px;
-            margin: 2rem auto;
-            padding: 0 1rem;
-        }
-
-        .hero-image-container {
-            text-align: center;
-            margin-bottom: 2rem;
-        }
-
-        .hero-image {
-            max-width: 100%;
-            height: auto;
-            border-radius: 8px;
-            box-shadow: 0 4px 6px -1px rgb(0 0 0 / 0.1), 0 2px 4px -2px rgb(0 0 0 / 0.1);
-        }
-
+        <div class="hero-image-container"> /*added image 10/27/2026*/
+    <!-- Displays a vector illustration of a computer monitor with a security padlock -->
+    <img class="hero-image" 
+         src="https://unsplash.com" 
+         alt="A flat vector illustration of a desktop computer screen displaying a large secure padlock icon" 
+         width="800" 
+         height="600">
+</div>
+        
         main {
             background: #ffffff;
             padding: 2rem;
